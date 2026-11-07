@@ -1,0 +1,27 @@
+
+# Git files
+.git
+.gitignore
+
+# Documentation and screenshots
+README.md
+docs/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies and build outputs
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
