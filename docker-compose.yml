@@ -1,0 +1,13 @@
+
+services:
+  studybuddy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: studybuddy:dev
+
+    ports:
+      - "8080:80"
+
+    restart: unless-stopped
